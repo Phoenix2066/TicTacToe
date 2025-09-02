@@ -20,7 +20,7 @@ for(let i =0;i<btn.length;i++){
                  `);
             }
             else if(filled.every(Boolean)){
-                finish(`<h1>This Match was a Draw</h1>
+                finish(`<h2>This Match was a Draw</h2>
                      <button class="playAgain">Play Again</button>
                  `);
             }
